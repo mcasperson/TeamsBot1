@@ -86,7 +86,6 @@ jobs:
           asset_path: ${{ steps.get_artifact.outputs.artifact }}
           asset_name: ${{ steps.get_artifact_name.outputs.artifact }}
           asset_content_type: application/octet-stream
-      - id: get_octopus_artifact
 
 name: Java Maven Build
 'on':
